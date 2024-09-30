@@ -32,7 +32,7 @@ var rootCmd = &cobra.Command{
 	Long:  `Overfly Cloud Command line is a tool to interact with Overfly Cloud API`,
 
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("overflyctl")
+		cmd.Help()
 	},
 }
 
